@@ -20,7 +20,7 @@ if __name__ == '__main__':
     # 各类路径
     PROJECT_HOME = os.getcwd()  # 根目录路径
     PROJECT_RUN_TIME = time.strftime('%Y-%m-%d-%H-%M-%S', time.localtime()) # 项目运行时间
-    LOG_DIR = os.path.join(PROJECT_HOME, 'TrainLog', 'EXPMODEL_SYSU256', PROJECT_RUN_TIME) # 日志保存路径
+    LOG_DIR = os.path.join(PROJECT_HOME, 'TrainLog', 'OSAWaveNet_SYSU256', PROJECT_RUN_TIME) # 日志保存路径
 
     # 创建日志文件、设置随机种子
     os.makedirs(LOG_DIR,exist_ok=True)
